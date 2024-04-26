@@ -1,3 +1,5 @@
+@use '../base/colors' as *;
+
 ul.sidebar {
   display: flex;
   flex-direction: column;
@@ -5,7 +7,7 @@ ul.sidebar {
   align-items: center;
   width: 100px;
   height: 70%;
-  background-color: #f473b5;
+  background-color: $main;
   color: #fff;
   list-style: none;
   gap: 2rem;
