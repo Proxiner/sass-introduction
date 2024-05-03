@@ -18,7 +18,6 @@
     grid-template-columns: 10% 90%;
     width: 100%;
     height: 85%;
-    border-top: 3px solid $main;
 
     .sidebar {
       display: flex;
@@ -34,10 +33,6 @@
 
       h1 {
         font-size: 4rem;
-
-        span {
-          color: $main;
-        }
       }
 
       h3{
@@ -45,7 +40,6 @@
       }
 
       a{
-        background-color: $main;
         padding: 0.8rem;
         color: #fff;
         text-decoration: none;
@@ -54,7 +48,6 @@
       }
 
       a:hover{
-        outline: 1px solid $main;
         background-color: transparent;
         color: #111;
       }

@@ -1,14 +1,58 @@
+@use '../base/colors' as *;
+
 .nav-container {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
-  list-style: none;
-  width: 100%;
-  height: 100%;
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+    width: 100%;
+    margin: auto;
+  }
 
   li {
     cursor: pointer;
+  }
+
+  .theme-picker {
+    padding: 1rem;
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: max-content;
+      list-style: none;
+      gap: 0.5rem;
+
+      li {
+        width: 20px;
+        height: 20px;
+        border: 2px solid #111;
+        border-radius: 0.2rem;
+        transition: all ease-in-out 0.3s;
+      }
+
+      li:hover {
+        transform: scale(1.2);
+      }
+
+      .purple {
+        background-color: $purple;
+      }
+
+      .pink {
+        background-color: $pink;
+      }
+
+      .blue {
+        background-color: $blue;
+      }
+    }
   }
 }
