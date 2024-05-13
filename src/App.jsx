@@ -17,7 +17,7 @@ const App = () => {
         </div>
         <div className="title">
           <h1>
-            Welcome To <span className="blue-theme">Sass</span> 101
+            Welcome To <span className="purple-theme">Sass</span> 101
           </h1>
           <h3>The best pre-proccessor for css</h3>
           <a className="purple-theme" href="https://sass-lang.com/" target="_blank">Learn More</a>

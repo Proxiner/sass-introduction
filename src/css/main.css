@@ -9,12 +9,20 @@ ul.purple-theme {
   background-color: purple;
 }
 
+ul.main-theme {
+  background-color: black;
+}
+
+ul.green-theme {
+  background-color: #0ebf37;
+}
+
 ul.pink-theme {
   background-color: pink;
 }
 
 ul.blue-theme {
-  background-color: lightblue;
+  background-color: #1eacdb;
 }
 
 span.purple-theme {
@@ -26,7 +34,7 @@ span.pink-theme {
 }
 
 span.blue-theme {
-  color: lightblue;
+  color: #1eacdb;
 }
 
 .hero-container.purple-theme {
@@ -38,7 +46,7 @@ span.blue-theme {
 }
 
 .hero-container.blue-theme {
-  border-top: 3px solid lightblue;
+  border-top: 3px solid #1eacdb;
 }
 
 a.purple-theme {
@@ -50,7 +58,7 @@ a.pink-theme {
 }
 
 a.blue-theme {
-  background-color: lightblue;
+  background-color: #1eacdb;
 }
 
 a.purple-theme {
@@ -62,7 +70,7 @@ a.pink-theme {
 }
 
 a.blue-theme {
-  outline: 1px solid lightblue;
+  outline: 1px solid #1eacdb;
 }
 
 /*# sourceMappingURL=main.css.map */

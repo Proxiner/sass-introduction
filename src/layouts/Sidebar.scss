@@ -1,10 +1,8 @@
 @use '../base/colors' as *;
+@use '../utils/mixins.scss' as *;
 
 ul.sidebar {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @include column-center;
   width: 100px;
   height: 70%;
   color: #fff;
