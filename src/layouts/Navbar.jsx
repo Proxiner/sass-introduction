@@ -9,6 +9,7 @@ const Navbar = () => {
         <li>Home</li>
         <li>Shop</li>
         <li>About us</li>
+        <li>Contact</li>
       </nav>
 
       <div className="theme-picker">
