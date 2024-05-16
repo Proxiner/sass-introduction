@@ -1,7 +1,11 @@
 @use '../base/colors' as *;
 
-.nav-container {
+%display-flex{
   display: flex;
+}
+
+.nav-container {
+  @extend %display-flex;
   justify-content: center;
   align-items: center;
 
