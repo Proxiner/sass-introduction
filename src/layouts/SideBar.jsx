@@ -10,7 +10,7 @@ import { IoLogOutSharp } from "react-icons/io5";
 
 const SideBar = () => {
     return (
-        <ul className='sidebar main-theme'>
+        <ul className='sidebar purple-theme'>
             <li> <FaUser/> </li>
             <li> <RiDashboardFill/> </li>
             <li> <FaMoneyBillTrendUp/> </li>
